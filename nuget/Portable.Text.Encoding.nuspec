@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
-        <id>Portable.Text.Encoding</id>
+        <id>Yaaf.Portable.Text.Encoding</id>
         <version>0.7.0.0</version>
         <title>Portable.Text.Encoding: A Portable Implementation of System.Text.Encoding.</title>
         <authors>Jeffrey Stedfast,Atsushi Enomoto,and Mono contributors</authors>
@@ -21,7 +21,7 @@ Platforms such as Windows Phone currently do not provide support for text encodi
         <tags>pcl win8 win81 wp81 wpa81 xamarin</tags>
     </metadata>
     <files>
-        <file src="..\bin\Release\Profile7\Portable.Text.Encoding.dll" target="lib\portable-net45+wp8+win8\Portable.Text.Encoding.dll" />
-        <file src="..\bin\Release\Profile111\Portable.Text.Encoding.dll" target="lib\wpa81\Portable.Text.Encoding.dll" />
+        <file src="..\bin\portable-net45+sl5+netcore45+MonoAndroid1+MonoTouch1\Portable.Text.Encoding.dll" target="lib\portable-net45+sl5+netcore45+MonoAndroid1+MonoTouch1\Portable.Text.Encoding.dll" />
+        <file src="..\bin\portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1\Portable.Text.Encoding.dll" target="lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1\Portable.Text.Encoding.dll" />
     </files>
 </package>
